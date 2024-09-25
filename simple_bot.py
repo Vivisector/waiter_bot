@@ -65,7 +65,7 @@ async def enter_phone(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int
         f'Вы заказали {quantity} порций {selected_drink}.\n'
         f'Адрес доставки: {address}\n'
         f'Номер телефона: {context.user_data["phone"]}\n'
-        'Подтверждаете заказ? Напишите "да" для подтверждения или "нет" для отмены.'
+        'Если подтверждаете заказ, напишите "да" или "нет" для отмены.'
     )
     return CONFIRMATION
 
