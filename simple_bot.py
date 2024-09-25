@@ -5,6 +5,7 @@ from telegram.ext import Application, CommandHandler
 DRINKS_MENU = [
     ["Кофе", "Чай"],
     ["Сок", "Вода"],
+    ["Cola", "Квас"],
 ]
 
 
